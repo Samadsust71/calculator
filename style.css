@@ -61,7 +61,13 @@ button{
     color: rgba(44, 233, 60, 0.977);
 }
 .equal{
-    background-color: rgb(140, 187, 13);
+    background-color: hsl(76, 87%, 39%);
+}
+.equal:hover{
+    background-color: hsl(76, 87%, 29%);
+}
+.equal:active{
+    background-color:  hsl(76, 87%, 49%);
 }
 
 button:hover{
