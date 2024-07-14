@@ -21,7 +21,7 @@ body{
     padding: 16px;
     border: 1px solid #7f7f7f;
     width: 360px;
-    height: 90vh;
+    height:90%;
     border-radius: 16px;
     box-shadow: 0px 3px 15px rgba(130, 140, 150, .9);
     background: transparent;
@@ -60,13 +60,13 @@ button{
 .operator{
     color: rgba(44, 233, 60, 0.977);
 }
-.equal{
+.equalBtn{
     background-color: hsl(76, 87%, 39%);
 }
-.equal:hover{
+.equalBtn:hover{
     background-color: hsl(76, 87%, 29%);
 }
-.equal:active{
+.equalBtn:active{
     background-color:  hsl(76, 87%, 49%);
 }
 
