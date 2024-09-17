@@ -7,6 +7,8 @@ let arr = Array.from(buttons);
 arr.forEach(button => {
     button.addEventListener('click', (e) => {
         if(e.target.innerHTML == '='){
+            string = string.replace(/^0+/, ''); 
+            string = eval(string).toFixed(2);
             string = eval(string);
             input.value = string;
         }
